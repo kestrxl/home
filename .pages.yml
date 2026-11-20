@@ -6,6 +6,8 @@ content:
     type: file
     path: index.html
     fields:
-      - name: html
+      - name: body
         label: HTML Content
         type: code
+        options:
+          language: html
