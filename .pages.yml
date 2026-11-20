@@ -1,0 +1,11 @@
+media: media
+
+content:
+  - name: home
+    label: Homepage
+    type: file
+    path: index.html
+    fields:
+      - name: html
+        label: HTML Content
+        type: code
