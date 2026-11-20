@@ -1,7 +1,230 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" type="image/png" href="media/favicon.png"><title>Web Resources</title><style>
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{background:#121212;color:#e4e4e7;font-family:system-ui,-apple-system,sans-serif;max-width:1000px;margin:0 auto;padding:1.5rem 1rem 4rem;line-height:1.6}header{text-align:center;margin-bottom:1.5rem}h1,h2,h3{color:#fff;line-height:1.25}h1{margin:.5rem 0}nav{display:flex;flex-wrap:wrap;justify-content:center;gap:.5rem;margin:1.5rem 0 2.5rem}nav a{background:#27272a;color:#f4f4f5;border:1px solid #3f3f46;border-radius:999px;padding:.5rem .8rem;text-decoration:none}nav a[aria-current="page"]{background:#2563eb;border-color:#60a5fa}a{color:#93c5fd}a:hover{color:#dbeafe}a:focus{outline:3px solid #60a5fa;outline-offset:3px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:1rem}.card,section{background:#18181b;border:1px solid #34343a;border-radius:10px;padding:1rem;margin-bottom:1rem}.card h2,.card h3{margin-top:0}ul,ol{padding-left:1.35rem}li+li{margin-top:.35rem}figure{margin:0}figcaption{font-weight:650;margin-bottom:.65rem}img{width:100%;height:auto;display:block;border-radius:8px;box-shadow:0 4px 20px #0008}.intro,.note{color:#a1a1aa}details{background:#202024;border:1px solid #3f3f46;border-radius:8px;padding:.75rem 1rem;margin:.75rem 0}summary{cursor:pointer;font-weight:650;color:#fff}footer{text-align:center;color:#a1a1aa;margin-top:2.5rem}@media(max-width:520px){body{padding:.75rem}nav{justify-content:flex-start}nav a{flex:1 1 45%;text-align:center}}
-</style></head>
-<body><header><h1>Web Resources</h1><p class="intro">Useful websites, document shortcuts, and browser extensions.</p></header><nav aria-label="Main navigation"><a href="index.html">Quick Guides</a><a href="web-resources.html" aria-current="page">Web Resources</a><a href="windows-tools.html">Windows Tools</a><a href="macros-controls.html">Macros & Controls</a><a href="system-information.html">System Information</a><a href="mac-resources.html">Mac Resources</a><a href="android.html">Android</a></nav><main><section><h2>Document shortcuts</h2><p><a href="https://word.new">Word.new</a> · <a href="https://excel.new">Excel.new</a> · <a href="https://powerpoint.new">PowerPoint.new</a> · <a href="https://docs.new">Docs.new</a> · <a href="https://sheets.new">Sheets.new</a> · <a href="https://slides.new">Slides.new</a></p></section>
-<div class="grid"><section><h2>Useful websites</h2><ul><li><a href="https://www.google.ca/advanced_search">Google Advanced Search</a></li><li><a href="https://ninite.com/">Ninite</a> / <a href="https://macapps.link/en/">MacApps</a></li><li><a href="https://bugmenot.com/">BugMeNot</a> / <a href="https://10minutemail.com/">10 Minute Mail</a></li><li><a href="https://mynoise.net/">MyNoise</a></li><li><a href="https://convertcase.net/">Convert Case</a></li><li>CloudConvert, TinyWow, and 10015.io</li><li><a href="https://numbergenerator.org/numberlist">Number Lists</a></li><li><a href="https://www.alt-codes.net/">Alt Codes</a></li><li><a href="https://unixpapa.com/js/testkey.html">Key Event Tester</a> / <a href="https://www.iobit.com/en/keyboard-test.php">Keyboard Test</a></li><li>NotebookLM</li><li><a href="https://goblin.tools/">Goblin Tools</a></li><li><a href="https://www.tomshardware.com/software/windows/door-slammed-on-last-remaining-easy-windows-11-local-account-setup-workaround">Windows local account instructions</a></li><li><a href="https://www.howtogeek.com/how-to-declutter-google-search-results/">Google web-only search instructions</a></li></ul></section>
-<section><h2>Chrome extensions</h2><ul><li>uBlock Origin</li><li>Circle Mouse Gestures</li><li>Dark Reader</li><li>EasyScroll</li><li>Hypothesis or Weava</li><li>Link Hints or PC by Voice</li><li>NaturalReader, Read Aloud, or Text Reader</li><li>OCR Image Reader or One-Click Reading Image</li><li>Optical</li><li>Use Immersive Reader on Websites</li><li>Allow Right-Click</li></ul></section></div></main><footer><p>Accessibility &amp; Technology Resources</p></footer></body></html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" type="image/png" href="media/favicon.png">
+    <title>Web Resources</title>
+    <style>
+        * {
+            box-sizing: border-box
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+
+        body {
+            background: #121212;
+            color: #e4e4e7;
+            font-family: system-ui, -apple-system, sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 1.5rem 1rem 4rem;
+            line-height: 1.6
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 1.5rem
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #fff;
+            line-height: 1.25
+        }
+
+        h1 {
+            margin: .5rem 0
+        }
+
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: .5rem;
+            margin: 1.5rem 0 2.5rem
+        }
+
+        nav a {
+            background: #27272a;
+            color: #f4f4f5;
+            border: 1px solid #3f3f46;
+            border-radius: 999px;
+            padding: .5rem .8rem;
+            text-decoration: none
+        }
+
+        nav a[aria-current="page"] {
+            background: #2563eb;
+            border-color: #60a5fa
+        }
+
+        a {
+            color: #93c5fd
+        }
+
+        a:hover {
+            color: #dbeafe
+        }
+
+        a:focus {
+            outline: 3px solid #60a5fa;
+            outline-offset: 3px
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem
+        }
+
+        .card,
+        section {
+            background: #18181b;
+            border: 1px solid #34343a;
+            border-radius: 10px;
+            padding: 1rem;
+            margin-bottom: 1rem
+        }
+
+        .card h2,
+        .card h3 {
+            margin-top: 0
+        }
+
+        ul,
+        ol {
+            padding-left: 1.35rem
+        }
+
+        li+li {
+            margin-top: .35rem
+        }
+
+        figure {
+            margin: 0
+        }
+
+        figcaption {
+            font-weight: 650;
+            margin-bottom: .65rem
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px #0008
+        }
+
+        .intro,
+        .note {
+            color: #a1a1aa
+        }
+
+        details {
+            background: #202024;
+            border: 1px solid #3f3f46;
+            border-radius: 8px;
+            padding: .75rem 1rem;
+            margin: .75rem 0
+        }
+
+        summary {
+            cursor: pointer;
+            font-weight: 650;
+            color: #fff
+        }
+
+        footer {
+            text-align: center;
+            color: #a1a1aa;
+            margin-top: 2.5rem
+        }
+
+        @media(max-width:520px) {
+            body {
+                padding: .75rem
+            }
+
+            nav {
+                justify-content: flex-start
+            }
+
+            nav a {
+                flex: 1 1 45%;
+                text-align: center
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Web Resources</h1>
+        <p class="intro">Useful websites, document shortcuts, and browser extensions.</p>
+    </header>
+    <nav aria-label="Main navigation"><a href="index.html">Quick Guides</a><a href="web-resources.html"
+            aria-current="page">Web Resources</a><a href="windows-tools.html">Windows Tools</a><a
+            href="macros-controls.html">Macros & Controls</a><a href="system-information.html">System Information</a><a
+            href="mac-resources.html">Mac Resources</a><a href="android.html">Android</a></nav>
+    <main>
+        <section>
+            <h2>Document shortcuts</h2>
+            <p><a href="https://word.new">Word.new</a> · <a href="https://excel.new">Excel.new</a> · <a
+                    href="https://powerpoint.new">PowerPoint.new</a> · <a href="https://docs.new">Docs.new</a> · <a
+                    href="https://sheets.new">Sheets.new</a> · <a href="https://slides.new">Slides.new</a></p>
+        </section>
+        <div class="grid">
+            <section>
+                <h2>Useful websites</h2>
+                <ul>
+                    <li><a href="https://www.google.ca/advanced_search">Google Advanced Search</a></li>
+                    <li><a href="https://ninite.com/">Ninite</a> / <a href="https://macapps.link/en/">MacApps</a></li>
+                    <li><a href="https://bugmenot.com/">BugMeNot</a> / <a href="https://10minutemail.com/">10 Minute
+                            Mail</a></li>
+                    <li><a href="https://mynoise.net/">MyNoise</a></li>
+                    <li><a href="https://convertcase.net/">Convert Case</a></li>
+                    <li>CloudConvert, TinyWow, and 10015.io</li>
+                    <li><a href="https://numbergenerator.org/numberlist">Number Lists</a></li>
+                    <li><a href="https://www.alt-codes.net/">Alt Codes</a></li>
+                    <li><a href="https://unixpapa.com/js/testkey.html">Key Event Tester</a> / <a
+                            href="https://www.iobit.com/en/keyboard-test.php">Keyboard Test</a></li>
+                    <li>NotebookLM</li>
+                    <li><a href="https://goblin.tools/">Goblin Tools</a></li>
+                    <li><a
+                            href="https://www.tomshardware.com/software/windows/door-slammed-on-last-remaining-easy-windows-11-local-account-setup-workaround">Windows
+                            local account instructions</a></li>
+                    <li><a href="https://www.howtogeek.com/how-to-declutter-google-search-results/">Google web-only
+                            search instructions</a></li>
+                </ul>
+            </section>
+            <section>
+                <h2>Chrome extensions</h2>
+                <ul>
+                    <li>uBlock Origin</li>
+                    <li>Circle Mouse Gestures</li>
+                    <li>Dark Reader</li>
+                    <li>EasyScroll</li>
+                    <li>Hypothesis or Weava</li>
+                    <li>Link Hints or PC by Voice</li>
+                    <li>NaturalReader, Read Aloud, or Text Reader</li>
+                    <li>OCR Image Reader or One-Click Reading Image</li>
+                    <li>Optical</li>
+                    <li>Use Immersive Reader on Websites</li>
+                    <li>Allow Right-Click</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>Accessibility &amp; Technology Resources</p>
+    </footer>
+</body>
+
+</html>
