@@ -1,2 +1,13 @@
 media: media
 
+content:
+  - name: home
+    label: Homepage
+    type: file
+    path: index.html
+    fields:
+      - name: body
+        label: HTML Content
+        type: code
+        options:
+          language: html
